@@ -16,29 +16,29 @@ scoring and utility code, target detection algorithms, and a short demonstration
 ————-
 Included files:
 
-Bullwinkle/                                          % Directory containing the Bullwinkle scoring code
-signature_detectors/                                 % Directory containing many known-target-signature detection algorithms
-util/                                               % Directory containing utility functions including the main scoring functions
-MUUFL_TruthForSubImage.mat                          % matlab file containing target ground truth information (only really useful if making new subimages)
+*Bullwinkle/                                          % Directory containing the Bullwinkle scoring code
+*signature_detectors/                                 % Directory containing many known-target-signature detection algorithms
+*util/                                               % Directory containing utility functions including the main scoring functions
+*MUUFL_TruthForSubImage.mat                          % matlab file containing target ground truth information (only really useful if making new subimages)
 
-MUUFL_Gulfport_GroundTruth.csv                      % csv with truth information from the mat file
-README.md                                           % this file
-demo.m                                              % demonstration code – run this!
-muufl_gulfport_campus_w_lidar_1.mat                 % campus subimage #1 (3500ft elev), includes coregistered LiDAR DEMs, includes image registered truth info
+*MUUFL_Gulfport_GroundTruth.csv                      % csv with truth information from the mat file
+*README.md                                           % this file
+*demo.m                                              % demonstration code – run this!
+*muufl_gulfport_campus_w_lidar_1.mat                 % campus subimage #1 (3500ft elev), includes coregistered LiDAR DEMs, includes image registered truth info
 
-muufl_gulfport_campus_w_lidar_2.mat                 % campus subimage #2 (3500ft elev), includes coregistered LiDAR DEMs, includes image registered truth info
+*muufl_gulfport_campus_w_lidar_2.mat                 % campus subimage #2 (3500ft elev), includes coregistered LiDAR DEMs, includes image registered truth info
 
-muufl_gulfport_campus_3.mat                         % campus subimage #3 (3500ft elev), includes image registered truth info
-muufl_gulfport_campus_4.mat                         % campus subimage #4 (6700ft elev), includes image registered truth info
-muufl_gulfport_campus_5.mat                         % campus subimage #5 (6700ft elev), includes image registered truth info
-tgt_img_spectra.mat                                 % matlab file containing hand selected target signatures for the 4 relevant target colors,
+*muufl_gulfport_campus_3.mat                         % campus subimage #3 (3500ft elev), includes image registered truth info
+*muufl_gulfport_campus_4.mat                         % campus subimage #4 (6700ft elev), includes image registered truth info
+*muufl_gulfport_campus_5.mat                         % campus subimage #5 (6700ft elev), includes image registered truth info
+*tgt_img_spectra.mat                                 % matlab file containing hand selected target signatures for the 4 relevant target colors,
                                                     % selected from unoccluded target pixels of subimage #1, These spectra were manually selected from the imagery.
 
-tgt_lab_spectra.mat                                 % matlab file with lab spectrometer measurements of target cloths (not including faux vineyard green)
-ASD_Spectra/                                        % Directory containing ground-spectra measuring using an ASD spectrometer
-MUUFL_GulfportTechReport.pdf                        % Technical Report describing data collection
+*tgt_lab_spectra.mat                                 % matlab file with lab spectrometer measurements of target cloths (not including faux vineyard green)
+*ASD_Spectra/                                        % Directory containing ground-spectra measuring using an ASD spectrometer
+*MUUFL_GulfportTechReport.pdf                        % Technical Report describing data collection
 
-** Geo-tagged Photographs and Ground-truth locations of this scene tagged in a GoogleEarth KML are included. 
+* Geo-tagged Photographs and Ground-truth locations of this scene tagged in a GoogleEarth KML are in the folder /MUUFLGulfport_Photographs/. 
 
 ————-
 About the Bullwinkle scoring:
