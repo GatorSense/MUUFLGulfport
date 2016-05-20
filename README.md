@@ -1,15 +1,14 @@
-The MUUFL Gulfport Hyperspectral and LiDAR Data Collection Files can be downloaded here: https://www.dropbox.com/s/87o6pj9bj13vla2/MUUFLGulfportDataCollection.zip
-
-Geo-tagged Photographs and Ground-truth locations of this scene tagged in a GoogleEarth KML can be downloaded here:  https://www.dropbox.com/s/v8eoay763bpn92s/MUUFLGulfport_Photographs.zip
-
+This repository contains: 
+-The MUUFL Gulfport Hyperspectral and LiDAR Data Collection Files  
+-Geo-tagged Photographs and Ground-truth locations of this scene tagged in a GoogleEarth KML
+-Bullwinkle Target Detection Scoring Code
 ****
 Note:  If this data is used in any publication or presentation the following reference must be cited:
 P. Gader, A. Zare, R. Close, J. Aitken, G. Tuell, “MUUFL Gulfport Hyperspectral and LiDAR Airborne Data Set,”  University of Florida, Gainesville, FL, Tech. Rep. REP-2013-570, Oct. 2013.
 
 If any of this scoring or detection code is used in any publication or presentation, the following reference must be cited:
-T. Glenn, A. Zare, P. Gader, D. Dranishnikov. (2013). Bullwinkle: Scoring Code for Sub-pixel Targets (Version 1.0) [Software]. Available from http://engineers.missouri.edu/zarea/code/.
+T. Glenn, A. Zare, P. Gader, D. Dranishnikov. (2016). Bullwinkle: Scoring Code for Sub-pixel Targets (Version 1.0) [Software]. Available from https://github.com/TigerSense/MUUFLGulfport/.
 ****
-
 
 This directory includes the data files for the MUUFL Gulfport Campus images,
 scoring and utility code, target detection algorithms, and a short demonstration script.
