@@ -38,7 +38,7 @@ tgt_lab_spectra.mat                                 % matlab file with lab spect
 ASD_Spectra/                                        % Directory containing ground-spectra measuring using an ASD spectrometer
 MUUFL_GulfportTechReport.pdf                        % Technical Report describing data collection
 
-** Geo-tagged Photographs and Ground-truth locations of this scene tagged in a GoogleEarth KML can be downloaded here:  https://www.dropbox.com/s/v8eoay763bpn92s/MUUFLGulfport_Photographs.zip
+** Geo-tagged Photographs and Ground-truth locations of this scene tagged in a GoogleEarth KML are included. 
 
 ————-
 About the Bullwinkle scoring:
