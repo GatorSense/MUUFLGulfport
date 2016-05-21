@@ -112,4 +112,4 @@ id: string indicating revision number, date, and author of the truth file
 ————-
 
 There are many more utility functions and detection routines included than are used in the demo. So, feel free to nose around and read the source…
--Taylor Glenn – tcg [at] cise.ufl.edu – 10/25/2013
+-Taylor Glenn  – 10/25/2013
