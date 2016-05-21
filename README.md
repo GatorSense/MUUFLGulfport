@@ -1,7 +1,7 @@
 This repository contains: 
--The MUUFL Gulfport Hyperspectral and LiDAR Data Collection Files  
--Geo-tagged Photographs and Ground-truth locations of this scene tagged in a GoogleEarth KML
--Bullwinkle Target Detection Scoring Code
+*The MUUFL Gulfport Hyperspectral and LiDAR Data Collection Files  
+*Geo-tagged Photographs and Ground-truth locations of this scene tagged in a GoogleEarth KML
+*Bullwinkle Target Detection Scoring Code
 ****
 Note:  If this data is used in any publication or presentation the following reference must be cited:
 P. Gader, A. Zare, R. Close, J. Aitken, G. Tuell, “MUUFL Gulfport Hyperspectral and LiDAR Airborne Data Set,”  University of Florida, Gainesville, FL, Tech. Rep. REP-2013-570, Oct. 2013.
@@ -16,14 +16,21 @@ scoring and utility code, target detection algorithms, and a short demonstration
 ————-
 Included files:
 
-*Bullwinkle/                                          % Directory containing the Bullwinkle scoring code
-*signature_detectors/                                 % Directory containing many known-target-signature detection algorithms
-*util/                                               % Directory containing utility functions including the main scoring functions
-*MUUFL_TruthForSubImage.mat                          % matlab file containing target ground truth information (only really useful if making new subimages)
+*Bullwinkle/                                          
+: Directory containing the Bullwinkle scoring code
+*signature_detectors/                                 
+: Directory containing many known-target-signature detection algorithms
+*util/                                               
+: Directory containing utility functions including the main scoring functions
+*MUUFL_TruthForSubImage.mat                          
+: matlab file containing target ground truth information (only really useful if making new subimages)
 
-*MUUFL_Gulfport_GroundTruth.csv                      % csv with truth information from the mat file
-*README.md                                           % this file
-*demo.m                                              % demonstration code – run this!
+*MUUFL_Gulfport_GroundTruth.csv                      
+: csv with truth information from the mat file
+*README.md                                           
+: this file
+*demo.m                                              
+: demonstration code – run this!
 *muufl_gulfport_campus_w_lidar_1.mat                 % campus subimage #1 (3500ft elev), includes coregistered LiDAR DEMs, includes image registered truth info
 
 *muufl_gulfport_campus_w_lidar_2.mat                 % campus subimage #2 (3500ft elev), includes coregistered LiDAR DEMs, includes image registered truth info
