@@ -17,13 +17,13 @@ scoring and utility code, target detection algorithms, and a short demonstration
 Included files:
 
 * Bullwinkle/                                          
-  : Directory containing the Bullwinkle scoring code
+  - Directory containing the Bullwinkle scoring code
 
 * signature_detectors/                                 
-  : Directory containing many known-target-signature detection algorithms
+  - Directory containing many known-target-signature detection algorithms
 
 * util/                                               
-: Directory containing utility functions including the main scoring functions
+  - Directory containing utility functions including the main scoring functions
 
 * MUUFL_TruthForSubImage.mat                          
 : matlab file containing target ground truth information (only really useful if making new subimages)
