@@ -1,7 +1,7 @@
 This repository contains: 
-*The MUUFL Gulfport Hyperspectral and LiDAR Data Collection Files  
-*Geo-tagged Photographs and Ground-truth locations of this scene tagged in a GoogleEarth KML
-*Bullwinkle Target Detection Scoring Code
+* The MUUFL Gulfport Hyperspectral and LiDAR Data Collection Files  
+* Geo-tagged Photographs and Ground-truth locations of this scene tagged in a GoogleEarth KML
+* Bullwinkle Target Detection Scoring Code
 ****
 Note:  If this data is used in any publication or presentation the following reference must be cited:
 P. Gader, A. Zare, R. Close, J. Aitken, G. Tuell, “MUUFL Gulfport Hyperspectral and LiDAR Airborne Data Set,”  University of Florida, Gainesville, FL, Tech. Rep. REP-2013-570, Oct. 2013.
@@ -16,48 +16,48 @@ scoring and utility code, target detection algorithms, and a short demonstration
 ————-
 Included files:
 
-*Bullwinkle/                                          
+* Bullwinkle/                                          
 : Directory containing the Bullwinkle scoring code
 
-*signature_detectors/                                 
+* signature_detectors/                                 
 : Directory containing many known-target-signature detection algorithms
 
-*util/                                               
+* util/                                               
 : Directory containing utility functions including the main scoring functions
 
-*MUUFL_TruthForSubImage.mat                          
+* MUUFL_TruthForSubImage.mat                          
 : matlab file containing target ground truth information (only really useful if making new subimages)
 
-*MUUFL_Gulfport_GroundTruth.csv                      
+* MUUFL_Gulfport_GroundTruth.csv                      
 : csv with truth information from the mat file
 
-*README.md                                           
+* README.md                                           
 : this file
 
-*demo.m                                              
+* demo.m                                              
 : demonstration code – run this!
 
-*muufl_gulfport_campus_w_lidar_1.mat                 
+* muufl_gulfport_campus_w_lidar_1.mat                 
 : campus subimage #1 (3500ft elev), includes coregistered LiDAR DEMs, includes image registered truth info
 
-*muufl_gulfport_campus_w_lidar_2.mat                 
+* muufl_gulfport_campus_w_lidar_2.mat                 
 : campus subimage #2 (3500ft elev), includes coregistered LiDAR DEMs, includes image registered truth info
 
-*muufl_gulfport_campus_3.mat                         
+* muufl_gulfport_campus_3.mat                         
 : campus subimage #3 (3500ft elev), includes image registered truth info
-*muufl_gulfport_campus_4.mat                         
+* muufl_gulfport_campus_4.mat                         
 : campus subimage #4 (6700ft elev), includes image registered truth info
-*muufl_gulfport_campus_5.mat                         
+* muufl_gulfport_campus_5.mat                         
 : campus subimage #5 (6700ft elev), includes image registered truth info
-*tgt_img_spectra.mat                                 
+* tgt_img_spectra.mat                                 
 : matlab file containing hand selected target signatures for the 4 relevant target colors,selected from unoccluded target pixels of subimage #1, These spectra were manually selected from the imagery.
 
-*tgt_lab_spectra.mat                                 
+* tgt_lab_spectra.mat                                 
 : matlab file with lab spectrometer measurements of target cloths (not including faux vineyard green)
 
-*ASD_Spectra/                                        
+* ASD_Spectra/                                        
 : Directory containing ground-spectra measuring using an ASD spectrometer
-*MUUFL_GulfportTechReport.pdf                        
+* MUUFL_GulfportTechReport.pdf                        
 : Technical Report describing data collection
 
 * Geo-tagged Photographs and Ground-truth locations of this scene tagged in a GoogleEarth KML are in the folder /MUUFLGulfport_Photographs/. 
