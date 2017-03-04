@@ -9,7 +9,7 @@ The MUUFL Gulfport Campus 1 ground truth scene labels
 
 [1] P. Gader, A. Zare, R. Close, J. Aitken, G. Tuell, “MUUFL Gulfport Hyperspectral and LiDAR Airborne Data Set,” University of Florida, Gainesville, FL, Tech. Rep. REP-2013-570, Oct. 2013.
 
-[2] X. Du and A. Zare,  “Technical Report: Scene Labeling Ground Truth Map for MUUFL Gulfport Data Set,” University of Missouri, Columbia, MO, Tech. Rep., Mar. 2017.
+[2] X. Du and A. Zare,  “Technical Report: Scene Labeling Ground Truth Map for MUUFL Gulfport Data Set,” University of Florida, Gainesville, FL, Tech. Rep., Mar. 2017.
 
 ***************************************************************
 
