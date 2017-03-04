@@ -1,11 +1,16 @@
 This repository contains: 
 * The MUUFL Gulfport Hyperspectral and LiDAR Data Collection Files  
+* The MUUFL Gulfport Hyperspectral scene labeling groundTruth data for Campus 1
 * Geo-tagged Photographs and Ground-truth locations of this scene tagged in a GoogleEarth KML
 * Bullwinkle Target Detection Scoring Code
 
 ****
 Note:  If this data is used in any publication or presentation the following reference must be cited:
+
 P. Gader, A. Zare, R. Close, J. Aitken, G. Tuell, “MUUFL Gulfport Hyperspectral and LiDAR Airborne Data Set,”  University of Florida, Gainesville, FL, Tech. Rep. REP-2013-570, Oct. 2013.
+
+X. Du and A. Zare, “Technical Report: Scene Labeling Ground Truth Map for MUUFL Gulfport Data Set,” University of Florida, Gainesville, FL, Tech. Rep., Mar. 2017.
+
 
 If any of this scoring or detection code is used in any publication or presentation, the following reference must be cited:
 T. Glenn, A. Zare, P. Gader, D. Dranishnikov. (2016). Bullwinkle: Scoring Code for Sub-pixel Targets (Version 1.0) [Software]. Available from https://github.com/TigerSense/MUUFLGulfport/.
@@ -66,6 +71,7 @@ Included files:
 
 * Geo-tagged Photographs and Ground-truth locations of this scene tagged in a GoogleEarth KML are in the folder /MUUFLGulfport_Photographs/. 
 
+* Ground truth maps for scene labeling (campus 1) are in the folder /MUUFLGulfportSceneLabels/.
 ————-
 About the Bullwinkle scoring:
 
