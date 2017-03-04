@@ -9,7 +9,7 @@ The MUUFL Gulfport Campus 1 ground truth scene labels
 
 [1] P. Gader, A. Zare, R. Close, J. Aitken, G. Tuell, “MUUFL Gulfport Hyperspectral and LiDAR Airborne Data Set,” University of Florida, Gainesville, FL, Tech. Rep. REP-2013-570, Oct. 2013.
 
-[2] X. Du and A. Zare,  “Technical Report: Scene Labeling Ground Truth Map for MUUFL Gulfport Data Set,” University of Florida, Gainesville, FL, Tech. Rep., Mar. 2017.
+[2] X. Du and A. Zare,  “Technical Report: Scene Label Ground Truth Map for MUUFL Gulfport Data Set,” University of Florida, Gainesville, FL, Tech. Rep., Mar. 2017.
 
 ***************************************************************
 
@@ -18,7 +18,7 @@ This directory includes the MATLAB data files for the MUUFL Gulfport Campus 1 im
 ————- Included files:
 
 muufl_gulfport_campus_1_hsi_220_label.mat
-matlab (structure) file containing the data set and scene labeling ground truth information, for campus subimage #1 (3500ft elev)
+matlab (structure) file containing the data set and scene label ground truth information, for campus subimage #1 (3500ft elev)
 
 README.md
 this file
@@ -52,7 +52,7 @@ RGB: RGB image of the croppde hyperspectral campus 1 data set.
 
 ————- About groundTruth 
 
-This section provides detailed information regarding the "groundTruth" field in the hsi structure.
+This section provides detailed information regarding the "groundTruth" field in the hsi structure. The "groundTruth" here refers to the (cloth) targets ground truth information.
 
 Targets_UTMx: UTM Easting Targets_UTMy: UTM Northing Targets_Lat: Degrees Latitude Targets_Lon: Degrees Longitude Targets_ID: numerical identifier for the target (1 to 50). Notice that in the original data collection there were sixty-four targets [1] but due to cropping fifty targets remain.
 
@@ -70,7 +70,7 @@ id: string indicating revision number, date, and author of the truth file
 
 ————- About sceneLabels
 
-This section provides detailed information regarding the "sceneLabels" field in the hsi structure. 
+This section provides detailed information regarding the "sceneLabels" field in the hsi structure.  The "sceneLabels" are the ground truth for every pixel in the scene.
 
 Materials_Type: The material types (classes for labeling), including trees, mostly-grass ground surface, mixed ground surface, dirt and sand, road, water, buildings, shadow of buildings, sidewalk, yellow curb, cloth panels (targets). All the pixels in the data set were labeled either into one of the eleven classes, or remained as "unlabeled points". 
 
