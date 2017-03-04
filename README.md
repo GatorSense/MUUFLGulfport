@@ -11,7 +11,7 @@ Note:  If this data is used in any publication or presentation the following ref
 
 If the scene labels are used in any publication or presentation, the following reference must be cited: 
 
-  X. Du and A. Zare, “Technical Report: Scene Labeling Ground Truth Map for MUUFL Gulfport Data Set,” University of Florida, Gainesville, FL, Tech. Rep., Mar. 2017.
+  X. Du and A. Zare, “Technical Report: Scene Label Ground Truth Map for MUUFL Gulfport Data Set,” University of Florida, Gainesville, FL, Tech. Rep., Mar. 2017.
 
 
 If any of this scoring or detection code is used in any publication or presentation, the following reference must be cited:
