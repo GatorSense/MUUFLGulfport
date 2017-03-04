@@ -72,6 +72,7 @@ Included files:
 * Geo-tagged Photographs and Ground-truth locations of this scene tagged in a GoogleEarth KML are in the folder /MUUFLGulfport_Photographs/. 
 
 * Ground truth maps for scene labeling (campus 1) are in the folder /MUUFLGulfportSceneLabels/.
+
 ————-
 About the Bullwinkle scoring:
 
