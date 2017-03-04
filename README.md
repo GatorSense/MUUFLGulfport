@@ -1,19 +1,22 @@
 This repository contains: 
 * The MUUFL Gulfport Hyperspectral and LiDAR Data Collection Files  
-* The MUUFL Gulfport Hyperspectral scene labeling groundTruth data for Campus 1
-* Geo-tagged Photographs and Ground-truth locations of this scene tagged in a GoogleEarth KML
+* The MUUFL Gulfport Hyperspectral Data Scene labels for Campus 1 Image
+* Geo-tagged Photographs and Target Ground-truth locations of this scene tagged in a GoogleEarth KML
 * Bullwinkle Target Detection Scoring Code
 
 ****
 Note:  If this data is used in any publication or presentation the following reference must be cited:
 
-P. Gader, A. Zare, R. Close, J. Aitken, G. Tuell, “MUUFL Gulfport Hyperspectral and LiDAR Airborne Data Set,”  University of Florida, Gainesville, FL, Tech. Rep. REP-2013-570, Oct. 2013.
+  P. Gader, A. Zare, R. Close, J. Aitken, G. Tuell, “MUUFL Gulfport Hyperspectral and LiDAR Airborne Data Set,”  University of Florida, Gainesville, FL, Tech. Rep. REP-2013-570, Oct. 2013.
 
-X. Du and A. Zare, “Technical Report: Scene Labeling Ground Truth Map for MUUFL Gulfport Data Set,” University of Florida, Gainesville, FL, Tech. Rep., Mar. 2017.
+If the scene labels are used in any publication or presentation, the following reference must be cited: 
+
+  X. Du and A. Zare, “Technical Report: Scene Labeling Ground Truth Map for MUUFL Gulfport Data Set,” University of Florida, Gainesville, FL, Tech. Rep., Mar. 2017.
 
 
 If any of this scoring or detection code is used in any publication or presentation, the following reference must be cited:
-T. Glenn, A. Zare, P. Gader, D. Dranishnikov. (2016). Bullwinkle: Scoring Code for Sub-pixel Targets (Version 1.0) [Software]. Available from https://github.com/TigerSense/MUUFLGulfport/.
+  
+  T. Glenn, A. Zare, P. Gader, D. Dranishnikov. (2016). Bullwinkle: Scoring Code for Sub-pixel Targets (Version 1.0) [Software]. Available from https://github.com/TigerSense/MUUFLGulfport/.
 ****
 
 This directory includes the data files for the MUUFL Gulfport Campus images,
@@ -35,7 +38,7 @@ Included files:
   matlab file containing target ground truth information (only really useful if making new subimages)
 
 * MUUFL_Gulfport_GroundTruth.csv                      
-  csv with truth information from the mat file
+  csv with target ground truth information from the mat file
 
 * README.md                                           
   this file
@@ -66,12 +69,13 @@ Included files:
 
 * ASD_Spectra/                                        
  Directory containing ground-spectra measuring using an ASD spectrometer
+ 
 * MUUFL_GulfportTechReport.pdf                        
  Technical Report describing data collection
 
-* Geo-tagged Photographs and Ground-truth locations of this scene tagged in a GoogleEarth KML are in the folder /MUUFLGulfport_Photographs/. 
+* Geo-tagged Photographs and Target Ground-truth locations of this scene tagged in a GoogleEarth KML are in the folder /MUUFLGulfport_Photographs/. 
 
-* Ground truth maps for scene labeling (campus 1) are in the folder /MUUFLGulfportSceneLabels/.
+* The MUUFL Gulfport Hyperspectral Data Scene labels and documentation for Campus 1 Image are in the folder /MUUFLGulfportSceneLabels/.
 
 ————-
 About the Bullwinkle scoring:
@@ -92,9 +96,9 @@ It first runs 2 detection algorithms which look only for pea green target. These
 Next multi-target versions of ACE and the Spectral Matched Filter are run to find all of the targets. ROC curves are then plotted for multiple algorithms simultaneously, and the demo shows a few options for the ROC plotter.
 
 ————-
-About the ground truth:
+About the target ground truth:
 
-The .mat and .csv files contain the ground truth locations and information about the emplaced targets.
+The .mat and .csv files contain the target ground truth locations and information about the emplaced targets.
 
 Here is an overview of the fields:
 
