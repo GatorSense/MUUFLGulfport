@@ -16,7 +16,7 @@ If the scene labels are used in any publication or presentation, the following r
 
 If any of this scoring or detection code is used in any publication or presentation, the following reference must be cited:
   
-  T. Glenn, A. Zare, P. Gader, D. Dranishnikov. (2016). Bullwinkle: Scoring Code for Sub-pixel Targets (Version 1.0) [Software]. Available from https://github.com/TigerSense/MUUFLGulfport/.
+  T. Glenn, A. Zare, P. Gader, D. Dranishnikov. (2016). Bullwinkle: Scoring Code for Sub-pixel Targets (Version 1.0) [Software]. Available from https://github.com/GatorSense/MUUFLGulfport/.
 ****
 
 This directory includes the data files for the MUUFL Gulfport Campus images,
