@@ -11,12 +11,12 @@ Note:  If this data is used in any publication or presentation the following ref
 
 If the scene labels are used in any publication or presentation, the following reference must be cited: 
 
-  X. Du and A. Zare, “Technical Report: Scene Label Ground Truth Map for MUUFL Gulfport Data Set,” University of Florida, Gainesville, FL, Tech. Rep., Mar. 2017.
+  X. Du and A. Zare, “Technical Report: Scene Label Ground Truth Map for MUUFL Gulfport Data Set,” University of Florida, Gainesville, FL, Tech. Rep. 20170417, Apr. 2017. Available: http://ufdc.ufl.edu/IR00009711/00001.
 
 
 If any of this scoring or detection code is used in any publication or presentation, the following reference must be cited:
   
-  T. Glenn, A. Zare, P. Gader, D. Dranishnikov. (2016). Bullwinkle: Scoring Code for Sub-pixel Targets (Version 1.0) [Software]. Available from https://github.com/TigerSense/MUUFLGulfport/.
+  T. Glenn, A. Zare, P. Gader, D. Dranishnikov. (2016). Bullwinkle: Scoring Code for Sub-pixel Targets (Version 1.0) [Software]. Available from https://github.com/GatorSense/MUUFLGulfport/.
 ****
 
 This directory includes the data files for the MUUFL Gulfport Campus images,
