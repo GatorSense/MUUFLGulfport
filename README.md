@@ -1,3 +1,5 @@
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.1186326.svg)](https://doi.org/10.5281/zenodo.1186326)
+
 This repository contains: 
 * The MUUFL Gulfport Hyperspectral and LiDAR Data Collection Files  
 * The MUUFL Gulfport Hyperspectral Data Scene labels for Campus 1 Image
