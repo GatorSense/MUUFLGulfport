@@ -12,6 +12,8 @@ In this folder, we provide the technical report and MATLAB data file `(.mat)` fo
 
 This technical report describes the groundtruth scene annotation process and provides detailed information regarding each material type in the scene.
 
+`Correction: (2018-12-06) In the technical report Page 1 last paragraph, label "7" should be shadow of buildings and label "8" should be buildings. Please refer to the hsi.sceneLabels.Materials_Type in the .mat file for correct material type correspondence. `
+
 ## MATLAB data file
 
 The `muufl_gulfport_campus_1_hsi_220_label.mat` file contains the ground truth information about the emplaced targets as well as the materials in the scene. Here is an overview of all the fields in the data structure:
